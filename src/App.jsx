@@ -3,7 +3,7 @@ export default function App() {
     <div className="full-wrapper">
       <div className="content">
         <h1>Jude DA Tech</h1>
-        <p>Welcome to my modern React host demo application.</p>
+        <p>Welcome to my modern React demo application.</p>
       </div>
     </div>
   );
