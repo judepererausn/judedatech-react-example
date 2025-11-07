@@ -1,0 +1,39 @@
+/* Remove default margin */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Full screen wrapper */
+.full-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Styling the text */
+.content h1 {
+  font-size: 4rem;
+  margin: 0 0 10px 0;
+  letter-spacing: 2px;
+  font-weight: 700;
+
+  background: linear-gradient(90deg, #00eaff, #00ff84);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.content p {
+  font-size: 1.2rem;
+  opacity: 0.85;
+}
+
